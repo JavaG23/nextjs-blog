@@ -37,8 +37,8 @@ export default function Layout({ children, home }) {
         {home ? (
           <>
             <Image
-              priority
-              src="/images/Profile.jpg"
+              priority 
+              src="/images/static/Profile.jpg"
               className={utilStyles.borderCircle}
               height={144}
               width={144}
@@ -51,7 +51,7 @@ export default function Layout({ children, home }) {
             <Link href="/">
               <Image
                 priority
-                src="/images/profile.jpg"
+                src="/images/static/profile.jpg"
                 className={utilStyles.borderCircle}
                 height={108}
                 width={108}
