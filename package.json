@@ -1,17 +1,30 @@
 {
   "private": true,
+  "description": "An example project for NextAuth.js with Next.js",
+  "repository": "https://github.com/nextauthjs/next-auth-example.git",
+  "bugs": {
+    "url": "https://github.com/nextauthjs/next-auth/issues"
+  },
+  "homepage": "https://gahoffman.com",
   "scripts": {
-    "dev": "next dev",
+    "dev": "next",
     "build": "next build",
     "start": "next start"
   },
   "dependencies": {
     "date-fns": "^2.29.3",
     "gray-matter": "^4.0.3",
-    "next": "latest",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
+    "next": "^13.3.1",
+    "next-auth": "^4.22.1",
+    "nodemailer": "^6.9.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "remark": "^14.0.2",
-    "remark-html": "^15.0.1"
+    "remark-html": "^15.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "^17",
+    "@types/react": "^18.0.15",
+    "typescript": "^4"
   }
 }
